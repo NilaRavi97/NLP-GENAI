@@ -10,13 +10,12 @@ This project explores how to turn these graphs into **concise ~90-word summaries
 
 ## Approach
 
-```mermaid
 flowchart LR
     A["Kialo argument graph<br/>(claim + support / attack premises)"] --> B["Input strategy<br/>Depth-First · Divide & Conquer · JSON"]
     B --> C["Model<br/>GPT-4 Turbo · LLaMA-2 70B · BART-Large-CNN"]
     C --> D["Prompt chaining<br/>(enforce 90-word limit)"]
     D --> E["Human pairwise<br/>evaluation"]
-```
+
 
 ### Strategies
 | Strategy | How the graph is given to the model |
