@@ -2,7 +2,7 @@
 
 **Master's Thesis Project**
 
-Argument search engines return snippets that often miss the main claim and its reasons. Online debates such as those on **Kialo** have no plain-text version to summarise; they exist only as **argument graphs**, with a main claim and user-written premises that support or attack it.
+Argument search engines return snippets that often miss the main claim and its reasons. Online debates such as those on **Kialo** have no plain-text version to summarise. They exist only as **argument graphs**, with a main claim and user-written premises that support or attack it.
 
 This project explores how to turn these graphs into **concise ~90-word summaries** that can serve as snippets in argument search engines. It compares **three strategies** for passing the graph structure to a language model and **three models** that generate the summary, evaluated through human judgement.
 
